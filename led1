@@ -1,0 +1,3 @@
+echo "accendo la luce"
+#accendiluce
+echo "1" > sys/class/gpio/gpio$LED_PIN/value
